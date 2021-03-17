@@ -1,4 +1,4 @@
-def factorial(n):
+def factorial(n): 
     f=1
     if n==0:  
         return 1
@@ -57,7 +57,7 @@ def calculate(num3):
         result=0.0
         return result
     else:
-        result=exponent(num3)*xtimesy(7,num3)*sqrt(num3,num3)*XtimesY(num3,-1)
+        result=exponent(num3)*XtimesY(7,num3)*sqrt(num3,num3)*XtimesY(num3,-1)
         result=float('%0.6f' % result)
         return result
 
